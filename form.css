@@ -1,0 +1,39 @@
+#form1 {
+    /* background-color:  gainsboro; */
+    height:550;
+    width: 450px;
+    padding: 1% 2%; /* vertical | horizontal */
+    /* padding: 40px;
+    padding-top: 25px; */
+    box-sizing: border-box;
+    /* box-shadow: 0 15px 25px rgb(23, 25, 26); */
+    box-shadow: 0px 5px 50px rgb(23, 25, 26);;
+    border-radius: 12px;
+    /* border: solid red; */
+    /* border: 4mm ridge rgba(170, 50, 220, .6); */
+}
+
+.form-div input[type="text"],
+.form-div input[type="email"],
+.form-div input[type="password"],
+.form-div #inputState{
+    -webkit-appearance: none !important;
+    border: none;
+    /* width: 50%; */
+  /* border-left: 10px solid red; */
+    border-bottom: 5px solid #017fb5;
+}
+
+
+.form-div input[type="text"]:focus,
+.form-div input[type="email"]:focus,
+.form-div input[type="password"]:focus,
+.form-div #inputState:focus{
+    box-shadow: none; 
+     border-bottom-color:red ;
+     /* border-color:red;  */
+}
+
+p{
+    font-size: 1em;
+}
